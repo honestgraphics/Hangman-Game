@@ -1,0 +1,105 @@
+/* FOR ALL PAGES */
+body {
+  background-image: url("../images/b1.png");
+  align-content: center
+}
+
+#leftPic {
+  float: left;
+  position: absolute;
+  left: 15%;
+}
+#rightPic {
+  float: right;
+  position: absolute;
+  right: 25%;
+}
+
+/* MAIN CONTENT */
+.title, .subtitle, #currentInstructions, #stats, #numberOfGuessesRemaining, #lettersAlreadyGuessed, #hangmanPic, #underscores, #pic {
+  text-align: center;
+  color: #ff8800;
+  font-size: 1.5rem;
+}
+header {
+  color: white;
+}
+.title {
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  line-height: 95%;
+  margin: 0px;
+  }
+.subtitle {
+  color: #00d9ff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  line-height: 95%;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  }
+#currentInstructions {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7rem;
+  }
+#stats {
+  font-family: 'Oswald', sans-serif;
+  }
+#numberOfGuessesRemaining {
+  font-family: 'Oswald', sans-serif;
+  }
+#lettersAlreadyGuessed {
+  font-family: 'Oswald', sans-serif;
+  }
+#hangmanPic {
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 30px;
+  }
+#underscores {
+  font-family: 'Oswald', sans-serif;
+  }
+#pic  {
+  font-family: 'Oswald', sans-serif;
+  }
+
+
+
+/* FOOTER AREA */
+footer {
+  width: 100%;
+  background-color: #ff8800;
+  color: white;
+  text-align: Center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  border-top: 5px solid #00d9ff;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* RESPONSIVENESS */
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media screen and (max-width: 440px) {
+  
+}
+
+@media screen and (max-width: 990px) {
+  
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
